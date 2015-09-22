@@ -434,10 +434,16 @@ body {
 }
 
 #social-footer a {
-    color: lightgrey;
-    font-size: 25px;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 #social-footer a:hover {
-    color: white;
+    color: #FFDBDA;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
 }
